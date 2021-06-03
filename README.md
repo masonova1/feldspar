@@ -7,6 +7,6 @@ Feldspar is a fast ECS (entity-component-system) and collision detection library
 
 # Where's the documentation Lebowski?
 
-Here's the plain english.
+Here's the plain english. All of this is WIP.
 
 https://docs.google.com/document/d/1mNFkinqF4Yg5yPYUeK-OSPH0S3f0Z0xs6FM0fecTzE4/edit?usp=sharing
