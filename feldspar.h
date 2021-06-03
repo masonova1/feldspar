@@ -178,6 +178,8 @@ namespace fs
         BCCollider(void);
         BCCollider(const fxVec2&, const fxp_t);
         BCCollider(const BCCollider&);
+        
+        fxVec2 center(); // UNIMPLEMENTED
 
         // Potentially faster than actually computing MTV
         bool testPoint(const fxVec2&);
@@ -203,7 +205,7 @@ namespace fs
         BBCollider(const fxVec2&, const fxVec2&);
         BBCollider(const BBCollider&);
 
-        fxVec2 center();
+        fxVec2 center(); // UNIMPLEMENTED
 
         bool testPoint(const fxVec2&);
         bool isCollidingWith(BCCollider&);
@@ -229,7 +231,7 @@ namespace fs
         CGCollider(const CGCollider&);
         CGCollider(const CGCollider&, const bool);
 
-        fxVec2 center();
+        fxVec2 center(); // UNIMPLEMENTED
 
         bool testPoint(fxVec2&);
         bool isCollidingWith(BCCollider&); // UNIMPLEMENTED
