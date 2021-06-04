@@ -20,7 +20,7 @@
 #define FELDSPAR_H_INCLUDED
 #include <cstdint>
 
-#define FXP_32_BITS // Comment out for lower fixed-point precision s9.6 numbers
+#define FXP_32_BITS // Comment out for lower fixed-point precision s9.6 numbers (DON'T ACTUALLY DO THIS RIGHT NOW IT BREAKS MATH FUNCTIONS COMPLETELY)
 
 #ifdef FXP_32_BITS
 #define FRACBITS 16
